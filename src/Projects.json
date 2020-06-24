@@ -14,7 +14,7 @@
   {
     "title": "Welcome to The Clubs ",
     "gif": "https://media.giphy.com/media/f9qJo0w0DY9rJY7g4E/giphy.gif",
-    "link": "welcome-tothe-clubs.surge.sh",
+    "link": "https://welcome-tothe-clubs.surge.sh/",
     "description": "A full stack web application made independently with the use of ReactJS and Ruby on Rails"
   }
 ]

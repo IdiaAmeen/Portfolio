@@ -4,6 +4,7 @@ body {
   /* background-color: #ffe135; */
   background-image: linear-gradient(to bottom right, #eef4d2, #fb8883);
   height: 100%;
+  width: 100%;
 }
 
 #profile {
@@ -68,4 +69,9 @@ body {
   display: flex;
   flex-direction: row;
   align-content: center;
+}
+@media (max-width: 992px) {
+  .projectcard {
+    flex-direction: column;
+  }
 }
