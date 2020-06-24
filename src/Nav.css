@@ -1,0 +1,17 @@
+.nav {
+  text-decoration: none;
+  color: black;
+  font-family: "Abel", sans-serif;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  float: right;
+  margin-left: 1270px;
+  margin-top: -350px;
+  position: absolute;
+  z-index: 1;
+}
+#navbar {
+  text-decoration: none;
+  color: black;
+}

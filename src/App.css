@@ -1,38 +1,71 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+body {
+  /* background-color: #ffe135; */
+  background-image: linear-gradient(to bottom right, #eef4d2, #fb8883);
+  height: 100%;
+}
+
+#profile {
+  /* height: 300px;
+  width: 300px;
+ 
+  position: relative;
+
+ */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  margin-top: -250px;
+  z-index: 9999;
+}
+
+#name {
+  /* margin-left: 475px; */
+  margin-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* box-shadow: 5px 10px black; */
+#greeting {
+  font-family: "Abel", sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.projects {
+  height: 350px;
+  width: 350px;
+  /* background-color: white; */
+  margin-top: 15px;
+  /* margin-left: 60px; */
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#gif {
+  height: 220px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 5%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#projects {
+  text-decoration: none;
+  color: black;
+  font-family: "Abel", sans-serif;
   display: flex;
+  align-content: center;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.projectcard {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
 }

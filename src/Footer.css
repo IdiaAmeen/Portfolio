@@ -1,0 +1,17 @@
+body {
+  background-color: #d3d3d3;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 15px;
+}
+button {
+  background: none;
+  border: none;
+  height: 74px;
+}
+#contact {
+  height: 100px;
+}

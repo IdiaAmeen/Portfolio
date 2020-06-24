@@ -1,0 +1,9 @@
+.header {
+  background-color: #bdbfb3;
+  height: 450px;
+  width: 100%;
+  position: relative;
+  margin-top: -25px;
+  clip-path: polygon(0 0, 100% 0%, 100% 36%, 0% 100%);
+  z-index: -1;
+}

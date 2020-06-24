@@ -1,0 +1,63 @@
+.outer-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  background: grey;
+  z-index: 1000;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+.inner-modal {
+  position: absolute;
+  height: 300px;
+  width: 510px;
+  top: 11.5%;
+  background-color: #eef4d2;
+  bottom: 25%;
+  border-radius: 21.7px;
+  z-index: 1;
+
+  font-size: 18px;
+  border: 5px solid #fb8883;
+  text-align: center;
+}
+button {
+  float: right;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-top: -10px;
+}
+.contacts {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.email img {
+  height: 74px;
+  width: 74px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cell {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.cell img {
+  height: 74px;
+  width: 74px;
+  margin-left: auto;
+  margin-right: auto;
+}
