@@ -23,8 +23,16 @@
 @media (max-width: 992px) {
   .nav {
     margin-top: -300px;
+    margin-left: 57px;
+    /* margin-left: auto;
+    margin-right: auto; */
   }
   #navbar {
     margin-top: 7px;
+    margin-bottom: 5px;
+
+    margin-left: 12px;
+    /* margin-left: auto;
+    margin-right: auto; */
   }
 }
