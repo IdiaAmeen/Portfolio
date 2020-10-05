@@ -42,8 +42,9 @@ function App() {
       {/* <Route exact path="/resume">
         <Resume />
       </Route> */}
-
+      {/* <Route exact path="/"> */}
       <Footer id="footer" />
+      {/* </Route> */}
     </div>
   );
 }
