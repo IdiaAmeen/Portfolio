@@ -132,4 +132,7 @@ hr {
   .projectcard {
     flex-direction: column;
   }
+  #greeting {
+    font-size: 16px;
+  }
 }
