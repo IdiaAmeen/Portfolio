@@ -1,20 +1,20 @@
 [
   {
-    "title": "Rick And Morty Trivia",
-    "gif": "https://media.giphy.com/media/SwD8mFnanNkOmYFmsz/giphy.gif",
-    "link": "https://pages.git.generalassemb.ly/IdiaAmeen/Rick-And-Morty-APP/",
-    "description": "A Javascript application with the use of Axios"
-  },
-  {
     "title": "Shipt",
     "gif": "https://media.giphy.com/media/Q9udyOGNp8jOJVNyc2/giphy.gif",
     "link": "https://shiptdev.surge.sh/",
-    "description": "A full stack web application made in a team with the use of ReactJS and ExpressJS"
+    "description": "A full stack web application made in a team with the use of ReactJS and ExpressJS. The application is a replica of the website 'Shipt', with new features presented by the UX team."
   },
   {
     "title": "Welcome to The Clubs ",
     "gif": "https://media.giphy.com/media/f9qJo0w0DY9rJY7g4E/giphy.gif",
     "link": "https://welcome-tothe-clubs.surge.sh/",
-    "description": "A full stack web application made independently with the use of ReactJS and Ruby on Rails"
+    "description": "A full stack web application made independently with the use of ReactJS and Ruby on Rails. This is a virtual book club where users may sign-up/ sign-in for full access to modify reading lists."
+  },
+  {
+    "title": "Rick And Morty Trivia",
+    "gif": "https://media.giphy.com/media/SwD8mFnanNkOmYFmsz/giphy.gif",
+    "link": "https://pages.git.generalassemb.ly/IdiaAmeen/Rick-And-Morty-APP/",
+    "description": "A Javascript application with the use of a third party API to create a fan page for Rick and Morty lovers. It displays characters and includes a trivia game in levels easy and hard."
   }
 ]

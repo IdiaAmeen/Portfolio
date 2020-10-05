@@ -2,9 +2,10 @@
 
 body {
   /* background-color: #ffe135; */
-  background-image: linear-gradient(to bottom right, #eef4d2, #fb8883);
+  background-image: linear-gradient(to bottom right, #dbe2ef, #3f72af);
   height: 100%;
   width: 100%;
+  overflow: scroll;
 }
 
 #profile {
@@ -17,10 +18,10 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 280px;
-  height: 280px;
+  width: 310px;
+  height: 310px;
   border-radius: 50%;
-  margin-top: -250px;
+  margin-top: -270px;
   z-index: 9999;
 }
 
@@ -34,11 +35,52 @@ body {
 
 /* box-shadow: 5px 10px black; */
 #greeting {
+  color: #fff;
+
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 8.5s steps(30, start), link-caret 0.5s step-end infinite;
   font-family: "Abel", sans-serif;
   text-align: center;
   font-size: 30px;
+  /* margin-left: 40%; */
+}
+hr {
+  border-top: 1px solid white;
+  width: 65%;
+}
+.section {
+  font-family: "Abel", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
+/* The typewriter cursor effect */
+/* @keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+} */
 .projects {
   height: 350px;
   width: 350px;
@@ -48,14 +90,24 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  margin-bottom: 40px;
 }
 #gif {
   height: 220px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 15px;
   border-radius: 5%;
+  box-shadow: 5px 5px #3f72af;
+}
+#gif:hover {
+  box-shadow: 5px 7px #112d4e;
+}
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 #projects {
   text-decoration: none;
@@ -64,11 +116,17 @@ body {
   display: flex;
   align-content: center;
   flex-direction: column;
+  /* background-color: #ebedf3;
+  border-radius: 10%;
+  box-shadow: 10px 10px 5px grey;
+  width: 375px;
+  opacity: 0.7; */
 }
 .projectcard {
   display: flex;
   flex-direction: row;
   align-content: center;
+  margin-bottom: 15px;
 }
 @media (max-width: 992px) {
   .projectcard {

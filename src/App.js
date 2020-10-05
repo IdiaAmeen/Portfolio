@@ -5,7 +5,9 @@ import Footer from "./Footer";
 import Header from "./Header";
 import Nav from "./Nav";
 import AboutMe from "./AboutMe";
+
 import "./App.css";
+import Resume from "./Resume.jsx";
 
 function App() {
   return (
@@ -17,11 +19,11 @@ function App() {
         alt="Idia Ameen"
         id="profile"
       />
+
       <Route exact path="/">
-        <p id="greeting">
-          Thanks for visiting my portfolio. Here are some projects I've worked
-          on!{" "}
-        </p>
+        <p id="greeting">Software Engineer | UX designer </p>
+        <hr />
+        <div className="section">Projects</div>
         <div className="projectcard">
           {Projects.map((project) => (
             <div className="projects" key={project.title}>
@@ -37,7 +39,11 @@ function App() {
       <Route exact path="/aboutidi">
         <AboutMe />
       </Route>
-      <Footer />
+      {/* <Route exact path="/resume">
+        <Resume />
+      </Route> */}
+
+      <Footer id="footer" />
     </div>
   );
 }

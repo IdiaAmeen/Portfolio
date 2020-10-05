@@ -1,17 +1,21 @@
-body {
-  background-color: #d3d3d3;
-}
 .links {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding-top: 15px;
+  background: rbg (17, 45, 78, 0.9);
+  height: 15%;
+  margin-top: 15px;
+  /* position: absolute; */
+  bottom: 0;
 }
-button {
-  background: none;
-  border: none;
-  height: 74px;
+#links {
+  height: 40px;
 }
 #contact {
   height: 100px;
 }
+/* body {
+  position: absolute;
+  bottom: 0;
+} */

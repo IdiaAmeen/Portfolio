@@ -1,9 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap");
 .header {
-  background-color: #bdbfb3;
+  background-color: #112d4e;
+  font-family: "Montserrat", sans-serif;
+  color: white;
   height: 450px;
   width: 100%;
   position: relative;
   margin-top: -25px;
   clip-path: polygon(0 0, 100% 0%, 100% 36%, 0% 100%);
   z-index: -1;
+  text-align: center;
+}
+.text {
+  /* margin: auto;
+  width: 50%; */
+
+  padding: 20px;
 }

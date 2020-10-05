@@ -1,25 +1,25 @@
 import React, { Component } from "react";
 import "./Footer.css";
-import Contact from "./Contact";
+// import Contact from "./Contact";
 class Footer extends Component {
-  state = {
-    display: false,
-  };
-  handleClick = () => {
-    this.setState((prevState) => ({
-      display: !prevState.display,
-    }));
-  };
+  // state = {
+  //   display: false,
+  // };
+  // handleClick = () => {
+  //   this.setState((prevState) => ({
+  //     display: !prevState.display,
+  //   }));
+  // };
   render() {
     return (
       <div className="links">
-        <a href="https://www.linkedin.com/in/idiaameen/" id="links">
-          <img src={require("./images/LinkedIn.png")} />
+        <a href="https://www.linkedin.com/in/idiaameen/">
+          <img src={require("./images/LinkedIn.png")} id="links" />
         </a>
-        <a href="https://github.com/IdiaAmeen" id="links">
-          <img src={require("./images/GitHub.png")} />
+        <a href="https://github.com/IdiaAmeen">
+          <img src={require("./images/GitHub.png")} id="links" />
         </a>
-        <button onClick={this.handleClick}>
+        {/* <button onClick={this.handleClick}>
           <img src={require("./images/Contact.png")} alt="contact" id="links" />
         </button>
         {this.state.display && (
@@ -27,7 +27,7 @@ class Footer extends Component {
             display={this.state.display}
             handleClick={this.handleClick}
           />
-        )}
+        )} */}
       </div>
     );
   }
