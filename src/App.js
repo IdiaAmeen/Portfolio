@@ -21,7 +21,7 @@ function App() {
       />
 
       <Route exact path="/">
-        <p id="greeting">Software Engineer | UX designer </p>
+        <p id="greeting">Software Engineer | Front-end Web Developer </p>
         <hr />
         <div className="section">Projects</div>
         <div className="projectcard">
