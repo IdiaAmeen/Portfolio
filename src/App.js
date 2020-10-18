@@ -1,13 +1,12 @@
 import React from "react";
 import Projects from "./Projects.json";
-import { Route, Link } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
 import Nav from "./Nav";
 import AboutMe from "./AboutMe";
 
 import "./App.css";
-import Resume from "./Resume.jsx";
 
 function App() {
   return (
