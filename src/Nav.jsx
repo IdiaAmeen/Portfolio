@@ -20,7 +20,7 @@ class Nav extends Component {
         <Link to="/aboutidi" id="navbar">
           About Me
         </Link>
-        <a href="https://docdro.id/Mf6zXED" id="navbar">
+        <a href="https://docdro.id/T3f5wMa" id="navbar">
           Resume
         </a>
         <a href="mailto:iAmeen95@gmail.com" id="navbar">
