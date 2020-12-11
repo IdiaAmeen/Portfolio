@@ -10,5 +10,11 @@
     "gif": "https://media.giphy.com/media/f9qJo0w0DY9rJY7g4E/giphy.gif",
     "link": "https://welcome-tothe-clubs.surge.sh/",
     "description": "A full stack web application made independently with the use of ReactJS and Ruby on Rails. This is a virtual book club where users may sign-up/ sign-in for full access to modify reading lists."
+  },
+  {
+    "title": "Don the Camera Guy",
+    "gif": "https://media.giphy.com/media/3yecY0TkjR0VtbTfQK/giphy.gif",
+    "link": "https://donthecameraguy.surge.sh/",
+    "description": "A freelance photography web application built independently with the use of ReactJS."
   }
 ]
